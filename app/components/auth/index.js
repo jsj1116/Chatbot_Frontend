@@ -1,18 +1,9 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
-
-import React, { Component, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import {StyleSheet, Text, View, ActivityIndicator, ScrollView} from 'react-native';
-import AuthLogo from './authLogo';
 import AuthForm from './authForm';
 import { getTokens } from '../../utils/misc';
 
+// const AuthStack = createStackNavigator();
 const AuthComponent = ({navigation}) => {
 
     const [loading, setLoading] = React.useState(false)
@@ -20,10 +11,6 @@ const AuthComponent = ({navigation}) => {
     goWithoutLogin = () => {
         navigation.navigate("AppTabComponent")
     }
-
-    // componentDidMount = () => {
-    //     getTokens();
-    // }
 
     useEffect(() => {
         getTokens();
@@ -40,9 +27,10 @@ const AuthComponent = ({navigation}) => {
         return (
             <View style={styles.container}>
                 <AuthForm
-                    goWithoutLogin={goWithoutLogin}
+                    navigation={navigation}
                 />
             </View>
+            
         )
     }
     

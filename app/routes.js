@@ -5,6 +5,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 //Screens
 import SignIn from './components/auth';
+import SignUp from './components/join';
 import Profile from './components/profile';
 import Home from './components/home';
 import Diary from './components/diary';
@@ -15,7 +16,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const AuthStack = createStackNavigator();
 const MainScreenTab = createBottomTabNavigator();  
 
-const isLoggedIn = true;
+const isLoggedIn = false;
 
 const AppTabComponent = () => {
     return (
@@ -69,6 +70,7 @@ export const RootNavigator = () => {
             ) : ( 
                 <>       
                     <AuthStack.Screen name="SignIn" component={SignIn}/>
+                    <AuthStack.Screen name="SignUp" component={SignUp}/>
                     <AuthStack.Screen name="AppTabComponent" component={AppTabComponent}/>
                 </>
                 

@@ -14,6 +14,15 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-project-projectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-project-projectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		74B34394C39A4FA39A6E7601 /* Paperlogy-1Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AA75B2988D4B6B8CB95B91 /* Paperlogy-1Thin.ttf */; };
+		423B43AF41D74EE89A9835C6 /* Paperlogy-2ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36CD9A740361418698123620 /* Paperlogy-2ExtraLight.ttf */; };
+		7142BA51348546B9A5958631 /* Paperlogy-3Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01651603E71D4664AAFE1FA1 /* Paperlogy-3Light.ttf */; };
+		92BE107846AA40898A830C44 /* Paperlogy-4Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFD316E5C19941E583C4829D /* Paperlogy-4Regular.ttf */; };
+		F60CA4B8D4E74B6DB6C2FA28 /* Paperlogy-5Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24D32803EC874A228692AE49 /* Paperlogy-5Medium.ttf */; };
+		66399BA071744EFD80A2C21E /* Paperlogy-6SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CA735AB5FE14A9B8347AC00 /* Paperlogy-6SemiBold.ttf */; };
+		8D0AE7C8D9164730A5716CFF /* Paperlogy-7Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCAF314994348C69922A92B /* Paperlogy-7Bold.ttf */; };
+		C67D21F1165845F8B3EA1161 /* Paperlogy-8ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF7CD75655AF4D11B3EDAE1D /* Paperlogy-8ExtraBold.ttf */; };
+		6CF824A252444ABF81191CF9 /* Paperlogy-9Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C4D603511A1479889568F95 /* Paperlogy-9Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = project/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-project-projectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-project-projectTests.release.xcconfig"; path = "Target Support Files/Pods-project-projectTests/Pods-project-projectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D5AA75B2988D4B6B8CB95B91 /* Paperlogy-1Thin.ttf */ = {isa = PBXFileReference; name = "Paperlogy-1Thin.ttf"; path = "../app/assets/fonts/Paperlogy-1Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		36CD9A740361418698123620 /* Paperlogy-2ExtraLight.ttf */ = {isa = PBXFileReference; name = "Paperlogy-2ExtraLight.ttf"; path = "../app/assets/fonts/Paperlogy-2ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01651603E71D4664AAFE1FA1 /* Paperlogy-3Light.ttf */ = {isa = PBXFileReference; name = "Paperlogy-3Light.ttf"; path = "../app/assets/fonts/Paperlogy-3Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AFD316E5C19941E583C4829D /* Paperlogy-4Regular.ttf */ = {isa = PBXFileReference; name = "Paperlogy-4Regular.ttf"; path = "../app/assets/fonts/Paperlogy-4Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		24D32803EC874A228692AE49 /* Paperlogy-5Medium.ttf */ = {isa = PBXFileReference; name = "Paperlogy-5Medium.ttf"; path = "../app/assets/fonts/Paperlogy-5Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CA735AB5FE14A9B8347AC00 /* Paperlogy-6SemiBold.ttf */ = {isa = PBXFileReference; name = "Paperlogy-6SemiBold.ttf"; path = "../app/assets/fonts/Paperlogy-6SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DCAF314994348C69922A92B /* Paperlogy-7Bold.ttf */ = {isa = PBXFileReference; name = "Paperlogy-7Bold.ttf"; path = "../app/assets/fonts/Paperlogy-7Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF7CD75655AF4D11B3EDAE1D /* Paperlogy-8ExtraBold.ttf */ = {isa = PBXFileReference; name = "Paperlogy-8ExtraBold.ttf"; path = "../app/assets/fonts/Paperlogy-8ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C4D603511A1479889568F95 /* Paperlogy-9Black.ttf */ = {isa = PBXFileReference; name = "Paperlogy-9Black.ttf"; path = "../app/assets/fonts/Paperlogy-9Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +140,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BFEADEC1C9EB4AFD9DF8177D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +166,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		BFEADEC1C9EB4AFD9DF8177D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D5AA75B2988D4B6B8CB95B91 /* Paperlogy-1Thin.ttf */,
+				36CD9A740361418698123620 /* Paperlogy-2ExtraLight.ttf */,
+				01651603E71D4664AAFE1FA1 /* Paperlogy-3Light.ttf */,
+				AFD316E5C19941E583C4829D /* Paperlogy-4Regular.ttf */,
+				24D32803EC874A228692AE49 /* Paperlogy-5Medium.ttf */,
+				4CA735AB5FE14A9B8347AC00 /* Paperlogy-6SemiBold.ttf */,
+				8DCAF314994348C69922A92B /* Paperlogy-7Bold.ttf */,
+				BF7CD75655AF4D11B3EDAE1D /* Paperlogy-8ExtraBold.ttf */,
+				3C4D603511A1479889568F95 /* Paperlogy-9Black.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +280,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				74B34394C39A4FA39A6E7601 /* Paperlogy-1Thin.ttf in Resources */,
+				423B43AF41D74EE89A9835C6 /* Paperlogy-2ExtraLight.ttf in Resources */,
+				7142BA51348546B9A5958631 /* Paperlogy-3Light.ttf in Resources */,
+				92BE107846AA40898A830C44 /* Paperlogy-4Regular.ttf in Resources */,
+				F60CA4B8D4E74B6DB6C2FA28 /* Paperlogy-5Medium.ttf in Resources */,
+				66399BA071744EFD80A2C21E /* Paperlogy-6SemiBold.ttf in Resources */,
+				8D0AE7C8D9164730A5716CFF /* Paperlogy-7Bold.ttf in Resources */,
+				C67D21F1165845F8B3EA1161 /* Paperlogy-8ExtraBold.ttf in Resources */,
+				6CF824A252444ABF81191CF9 /* Paperlogy-9Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

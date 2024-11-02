@@ -5,6 +5,8 @@ import { Calendar, LocaleConfig } from 'react-native-calendars';
 
 function CalendarTab() {
 
+  const [emoji, setEmoji] = useState('');
+
   const posts = [
     {
       id: 1,
@@ -41,14 +43,25 @@ function CalendarTab() {
         <Calendar 
         markedDates={markedSelectedDates}
         theme={{
-          selectedDayBackgroundColor: '#009688',
-          arrowColor: '#009688',
-          dotColor: '#009688',
-          todayTextColor: '#009688',
+          textMonthFontSize: 20,
+          textMonthFontFamily: 'Paperlogy-7Bold',
+          textDayFontFamily: 'Paperlogy-5Medium',
+          textDayHeaderFontFamily: 'Paperlogy-5Medium',
+          selectedDayBackgroundColor: '#7A5ADB',
+          arrowColor: '#7A5ADB',
+          dotColor: '#7A5ADB',
+          todayTextColor: '#7A5ADB',
         }} 
         onDayPress={(day) => {
           setSelectedDate(day.dateString)
-        }} />
+        }} 
+        // dayComponent={()=>{
+        //   return (
+        //     <View>
+        //       <Text>🌞</Text>
+        //     </View>
+        //   )}}
+          />
     </View>
   );
 }

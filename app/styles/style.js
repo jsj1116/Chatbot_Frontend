@@ -27,11 +27,19 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: 'black',
     },
-    logouttext: {
+    logoutButton: {
+        backgroundColor: '#E31B22',
+        paddingVertical: 15,
+        paddingHorizontal: 30,
+        borderRadius: 10,
+        marginBottom: 20,
+        width: '60%',
+        alignItems: 'center',
+    },
+    logoutText: {
         fontSize: 15,
         fontWeight: 'bold',
-        color: 'red',
-        textDecorationLine: 'underline',
+        color: 'white',
     },
     mainView: {
         marginBottom: 20, 
